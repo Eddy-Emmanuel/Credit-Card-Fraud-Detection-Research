@@ -1,0 +1,27 @@
+START HERE: ONE PROJECT, TWO WAYS TO WORK
+
+A) PREFER NOTEBOOKS? Open notebooks/COMPLETE_fraud_research_all_experiments.ipynb.
+   This one notebook includes the data audit, feature preparation, all 17 model
+   experiments, visualization, paired-case analysis (EXP_018), and test gate.
+
+B) PREFER PYTHON FILES? Use the fraud_project/ modular package.
+   Windows commands (run in this folder):
+     python -m pip install -r requirements.txt
+     python run_experiments.py EXP_001 EXP_002 EXP_003
+     python run_analysis.py --bootstrap 500
+
+If you want to examine previous results without retraining:
+   - Open the notebook and set RUN_MODEL_TRAINING = False.
+   - The provided historical_predictions/ files reproduce EXP_018.
+
+If you want to rerun the full experiment:
+   - Set RUN_MODEL_TRAINING = True in the notebook, then Run All.
+   - The original CSV will be downloaded into data/ or can be copied there.
+   - The sealed final test remains OFF by default. DO NOT ENABLE until final lock.
+
+PREVIOUS RESEARCH IS NOT DELETED OR OVERWRITTEN. The provided four prediction
+files were created in your historical run and are clearly labeled as such.
+
+Important: independent second-dataset validation has NOT yet been conducted.
+Full training with the real ULB CSV was NOT executed during creation of this kit;
+historical prediction replay, synthetic training, and function parity were checked.

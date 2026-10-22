@@ -1,0 +1,4 @@
+notebooks/data/creditcard.csv filter=lfs diff=lfs merge=lfs -text
+*.ipynb filter=lfs diff=lfs merge=lfs -text
+historical_predictions/*.csv filter=lfs diff=lfs merge=lfs -text
+notebooks/results/*.csv filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,12 @@
+{
+  "python": "3.12.3",
+  "numpy": "1.26.4",
+  "pandas": "2.1.4",
+  "sklearn": "1.4.2",
+  "scipy": "1.13.1",
+  "imbalanced_learn": "0.12.3",
+  "xgboost": "3.0.0",
+  "lightgbm": "4.6.0",
+  "catboost": "1.2.7",
+  "seed": 42
+}

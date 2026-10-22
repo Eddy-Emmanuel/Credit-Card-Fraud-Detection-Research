@@ -1,0 +1,3 @@
+comparison,metric,observed_difference,bootstrap_median,percentile_2_5,percentile_97_5,bootstrap_repetitions,seed,caution
+CatBoost minus weighted LightGBM,average_precision,0.004695960989274717,0.0024233231358979923,-0.016175957064108088,0.031904261160126346,500,20261022,Exploratory only: iid-stratified transaction assumption; ignores time dependence and repeated validation selection
+CatBoost minus weighted LightGBM,fraud_recall_at_0.5pct,-0.03508771929824561,-0.03508771929824561,-0.08771929824561403,0.0,500,20261022,Exploratory only: iid-stratified transaction assumption; ignores time dependence and repeated validation selection

@@ -1,0 +1,7 @@
+model_a,model_b,common_alerts,a_only_alerts,b_only_alerts,frauds_both,frauds_a_only,frauds_b_only,frauds_neither
+EXP_008,EXP_011,203,81,81,47,0,2,8
+EXP_008,EXP_012,197,87,87,46,1,1,9
+EXP_008,EXP_016,181,103,103,46,1,1,9
+EXP_011,EXP_012,171,113,113,47,2,0,8
+EXP_011,EXP_016,166,118,118,47,2,0,8
+EXP_012,EXP_016,174,110,110,47,0,0,10

@@ -1,0 +1,33 @@
+{
+  "dataset_sha256": "76274b691b16a6c49d3f159c883398e03ccd6d1ee12d9d8ee38f4b4b98551a89",
+  "model_seed": 42,
+  "paired_analysis_seed": 20261022,
+  "training_experiment_ids": [
+    "EXP_001",
+    "EXP_002",
+    "EXP_003",
+    "EXP_004",
+    "EXP_005",
+    "EXP_006",
+    "EXP_007",
+    "EXP_008",
+    "EXP_009",
+    "EXP_010",
+    "EXP_011",
+    "EXP_012",
+    "EXP_013",
+    "EXP_014",
+    "EXP_015",
+    "EXP_016",
+    "EXP_017"
+  ],
+  "paired_analysis_models": [
+    "EXP_008",
+    "EXP_011",
+    "EXP_012",
+    "EXP_016"
+  ],
+  "validation_used_for_model_selection": true,
+  "original_final_test_sealed": true,
+  "independent_second_dataset_replication_complete": false
+}

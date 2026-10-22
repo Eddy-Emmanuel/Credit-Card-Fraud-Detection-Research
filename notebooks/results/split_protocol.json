@@ -1,0 +1,29 @@
+{
+  "method": "strict temporal quantiles with non-overlapping timestamps",
+  "train_fraction_target": 0.6,
+  "validation_fraction_target": 0.2,
+  "split_thresholds": [
+    120393.0,
+    145234.0
+  ],
+  "train": {
+    "n": 170236,
+    "fraud": 342,
+    "prevalence": 0.002008975774806739,
+    "time_min": 0.0,
+    "time_max": 120393.0
+  },
+  "valid": {
+    "n": 56746,
+    "fraud": 57,
+    "prevalence": 0.0010044760864201883,
+    "time_min": 120394.0,
+    "time_max": 145234.0
+  },
+  "test": {
+    "n": 56744,
+    "labels": "SEALED",
+    "time_min": 145235.0,
+    "time_max": 172792.0
+  }
+}

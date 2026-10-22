@@ -1,0 +1,78 @@
+{
+  "experiment_id": "EXP_001",
+  "spec": {
+    "name": "Unweighted logistic regression",
+    "family": "lr",
+    "balanced": false,
+    "smote": false,
+    "hypothesis": "A simple linear baseline captures meaningful signal under native class prevalence."
+  },
+  "model_params": {
+    "memory": null,
+    "steps": [
+      [
+        "standardscaler",
+        "StandardScaler()"
+      ],
+      [
+        "logisticregression",
+        "LogisticRegression(max_iter=1200, random_state=42)"
+      ]
+    ],
+    "verbose": false,
+    "standardscaler": "StandardScaler()",
+    "logisticregression": "LogisticRegression(max_iter=1200, random_state=42)",
+    "standardscaler__copy": true,
+    "standardscaler__with_mean": true,
+    "standardscaler__with_std": true,
+    "logisticregression__C": 1.0,
+    "logisticregression__class_weight": null,
+    "logisticregression__dual": false,
+    "logisticregression__fit_intercept": true,
+    "logisticregression__intercept_scaling": 1,
+    "logisticregression__l1_ratio": null,
+    "logisticregression__max_iter": 1200,
+    "logisticregression__multi_class": "auto",
+    "logisticregression__n_jobs": null,
+    "logisticregression__penalty": "l2",
+    "logisticregression__random_state": 42,
+    "logisticregression__solver": "lbfgs",
+    "logisticregression__tol": 0.0001,
+    "logisticregression__verbose": 0,
+    "logisticregression__warm_start": false
+  },
+  "feature_names": [
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6",
+    "V7",
+    "V8",
+    "V9",
+    "V10",
+    "V11",
+    "V12",
+    "V13",
+    "V14",
+    "V15",
+    "V16",
+    "V17",
+    "V18",
+    "V19",
+    "V20",
+    "V21",
+    "V22",
+    "V23",
+    "V24",
+    "V25",
+    "V26",
+    "V27",
+    "V28",
+    "log_amount",
+    "time_sin",
+    "time_cos"
+  ],
+  "seed": 42
+}
